@@ -3919,7 +3919,7 @@ input:-internal-autofill-selected {
 }
 
 .ellipsis>.btn-read-more {
-  background-color: #f5df4e;  
+  background-color: #f5df4e;
   color: #212529;
   display: inline;
   padding: 0 5px;
@@ -3927,10 +3927,20 @@ input:-internal-autofill-selected {
   text-decoration: none;
 }
 
-.ellipsis>.btn-read-more:hover{
+.ellipsis>.btn-read-more:hover {
   background-color: #212529;
   color: #f5df4e;
 }
 
 
-.company-details-more{display: none;}
+.company-details-more {
+  display: none;
+}
+
+
+.banner-bg {
+  background-image: url('/assets/images/banner-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
